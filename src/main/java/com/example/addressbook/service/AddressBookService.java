@@ -13,7 +13,6 @@ public class AddressBookService implements IAddressBookService{
 
 
 	public List<AddressBook> list = new ArrayList<AddressBook>();
-	
 	@Override
 	public List<AddressBook> getData() {
 
