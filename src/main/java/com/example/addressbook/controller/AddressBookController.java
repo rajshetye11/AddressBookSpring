@@ -9,11 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AddressBookController {
-<<<<<<< HEAD
-	
-=======
 
->>>>>>> UC2
 	@GetMapping("/get")
 	public String getAdd() {
 		return "Adding contacts";
@@ -33,8 +29,5 @@ public class AddressBookController {
 	public String deleteAdd(@PathVariable int id) {
 		return "Contact Deleted";
 	}
-<<<<<<< HEAD
-	
-=======
->>>>>>> UC2
+
 }
